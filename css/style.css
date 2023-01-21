@@ -91,3 +91,12 @@ a.btn.btn-primary:hover {
     transition: 1s;
     transform: scale(90%) ;
 }
+
+@media screen and (max-width: 576px) {
+
+
+
+    .header h3 {
+visibility: collapse;
+    }
+}
