@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "Google Regular";
+    src: url("fonts/ProductSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Google Medium";
+    src: url("fonts/ProductSans-Medium.ttf");
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 95px;
+
+}
+
+.header h1 {
+   font-family: "Google Medium";
+    font-size: 28px;
+}
+
+.header h3{
+    font-family: "Google Medium";
+    padding-left: 30%;
+    font-size: 18px;
+}
+.header a {
+    color:black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header a:hover{
+    color: #126D52;
+    transition: 1s;
+
+
+}
+
+
+.hero {
+    padding-top: 60px;
+}
+
+.gif {
+    padding-bottom: 60px;
+}
+
+
+.section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.present h1{
+    font-family: "Google Medium";
+    font-size: 40px;
+}
+.present p{
+    font-family:"Google Regular";
+    color: dimgrey;
+    font-size: 30px;
+}
+
+a.btn.btn-primary{
+    margin-top: 20px;
+    border-radius: 100px;
+    padding: 20px 50px;
+    background-color: black;
+    border: 0px;
+    font-family: "Google Medium";
+    font-size: 18px;
+}
+
+a.btn.btn-primary:hover {
+    background-color: #2E2E2E;
+    transition: 1s;
+    transform: scale(90%) ;
+}
