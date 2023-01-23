@@ -84,6 +84,7 @@ a.btn.btn-primary{
     border: 0px;
     font-family: "Google Medium";
     font-size: 18px;
+    margin-bottom: 100px;
 }
 
 a.btn.btn-primary:hover {
